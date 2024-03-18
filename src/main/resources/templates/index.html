@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelves API testing</title>
+</head>
+<body>
+    <h2>Books</h2>
+    <ul id="list"></ul>
+
+    <h3>submit a book</h3>
+    <form action="http://localhost:8080/books" method="post">
+        <input type="text" name="title">
+        <input type="submit" value="go!">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
